@@ -3,153 +3,158 @@
   <head>
     <meta charset="utf-8">
     <title>Chess board</title>
-    <link href="style.css" rel="stylesheet">
-  </head>
-  <body>
-<div class="first_line">
-<div class="square white_square">
-</div>
-<div class="square black_square">
-</div>
-<div class=" square white_square">
-</div>
-<div class="square black_square">
-</div>
-<div class="square white_square">
-</div>
-<div class=" square black_square">
-</div>
-<div class="square white_square">
-</div>
-<div class="square black_square">
-</div>
-</div>
-<div class="second_line">
-<div class="square black_square">
-</div>
-<div class=" square white_square">
-</div>
-<div class="square black_square">
-</div>
-<div class=" square white_square">
-</div>
-<div class="square black_square">
-</div>
-<div class=" square white_square">
-</div>
-<div class="square black_square">
-</div>
-<div class=" square white_square">
-</div>
-</div>
-<div class="third_line">
-<div class="square white_square">
-</div>
-<div class="square black_square">
-</div>
-<div class=" square white_square">
-</div>
-<div class="square black_square">
-</div>
-<div class="square white_square">
-</div>
-<div class=" square black_square">
-</div>
-<div class="square white_square">
-</div>
-<div class="square black_square">
-</div>
-</div>
-<div class="fourth_line">
-<div class="square black_square">
-</div>
-<div class=" square white_square">
-</div>
-<div class="square black_square">
-</div>
-<div class=" square white_square">
-</div>
-<div class="square black_square">
-</div>
-<div class=" square white_square">
-</div>
-<div class="square black_square">
-</div>
-<div class=" square white_square">
-</div>
-</div>
-<div class="fifth_line">
-<div class="square white_square">
-</div>
-<div class="square black_square">
-</div>
-<div class=" square white_square">
-</div>
-<div class="square black_square">
-</div>
-<div class="square white_square">
-</div>
-<div class=" square black_square">
-</div>
-<div class="square white_square">
-</div>
-<div class="square black_square">
-</div>
-</div>
-<div class="six_line">
-<div class="square black_square">
-</div>
-<div class=" square white_square">
-</div>
-<div class="square black_square">
-</div>
-<div class=" square white_square">
-</div>
-<div class="square black_square">
-</div>
-<div class=" square white_square">
-</div>
-<div class="square black_square">
-</div>
-<div class=" square white_square">
-</div>
-</div>
-<div class="seventh_line">
-<div class="square white_square">
-</div>
-<div class="square black_square">
-</div>
-<div class=" square white_square">
-</div>
-<div class="square black_square">
-</div>
-<div class="square white_square">
-</div>
-<div class=" square black_square">
-</div>
-<div class="square white_square">
-</div>
-<div class="square black_square">
-</div>
-</div>
-<div class="eights_line">
-<div class="square black_square">
-</div>
-<div class=" square white_square">
-</div>
-<div class="square black_square">
-</div>
-<div class=" square white_square">
-</div>
-<div class="square black_square">
-</div>
-<div class=" square white_square">
-</div>
-<div class="square black_square">
-</div>
-<div class=" square white_square">
-</div>
-</div>
-
-  </body>
+    <style>
+    body {
+      background-color: black;
+      color: yellow;
+    }
+    h2 {
+    text-align: center;
+    }
+    table {
+      text-align: center;
+        border: solid gray 1px;
+        border-collapse: collapse;
+        margin: auto;
+    }
+    .letters {
+    text-align: center;
+    border: solid gray 1px;
+    }
+    .hidden {
+     visibility: hidden;
+    }
+      .square {
+      width: 50px;
+      height: 50px;
+      border: solid gray 1px;
+      }
+      .white_square {
+        background-color: white;
+      }
+    </style>
+</head>
+<body>
+<H2>Chess board</H2>
+<table>
+<tr>
+<td class="letters hidden"></td>
+<td class="letters">A</td>
+<td class="letters">B</td>
+<td class="letters">C</td>
+<td class="letters">D</td>
+<td class="letters">E</td>
+<td class="letters">F</td>
+<td class="letters">G</td>
+<td class="letters">H</td>
+</tr>
+<tr>
+<td class="letters">1</td>
+<td class="square white_square"> </td>
+<td class="square black_square"></td>
+<td class="square white_square"> </td>
+<td class="square black_square"></td>
+<td class="square white_square"> </td>
+<td class="square black_square"></td>
+<td class="square white_square"> </td>
+<td class="square black_square"></td>
+<td class="letters">1</td>
+</tr>
+<tr>
+<td class="letters">2</td>
+<td class="square black_square"></td>
+<td class="square white_square"> </td>
+<td class="square black_square"></td>
+<td class="square white_square"> </td>
+<td class="square black_square"></td>
+<td class="square white_square"> </td>
+<td class="square black_square"></td>
+<td class="square white_square"> </td>
+<td class="letters">2</td>
+</tr>
+<tr>
+<td class="letters">3</td>
+<td class="square white_square"> </td>
+<td class="square black_square"></td>
+<td class="square white_square"> </td>
+<td class="square black_square"></td>
+<td class="square white_square"> </td>
+<td class="square black_square"></td>
+<td class="square white_square"> </td>
+<td class="square black_square"></td>
+<td class="letters">3</td>
+</tr>
+<tr>
+<td class="letters">4</td>
+<td class="square black_square"></td>
+<td class="square white_square"> </td>
+<td class="square black_square"></td>
+<td class="square white_square"> </td>
+<td class="square black_square"></td>
+<td class="square white_square"> </td>
+<td class="square black_square"></td>
+<td class="square white_square"> </td>
+<td class="letters">4</td>
+</tr>
+<tr>
+<td class="letters">5</td>
+<td class="square white_square"> </td>
+<td class="square black_square"></td>
+<td class="square white_square"> </td>
+<td class="square black_square"></td>
+<td class="square white_square"> </td>
+<td class="square black_square"></td>
+<td class="square white_square"> </td>
+<td class="square black_square"></td>
+<td class="letters">5</td>
+</tr>
+<tr>
+<td class="letters">6</td>
+<td class="square black_square"></td>
+<td class="square white_square"> </td>
+<td class="square black_square"></td>
+<td class="square white_square"> </td>
+<td class="square black_square"></td>
+<td class="square white_square"> </td>
+<td class="square black_square"></td>
+<td class="square white_square"> </td>
+<td class="letters">6</td>
+</tr>
+<tr>
+<td class="letters">7</td>
+<td class="square white_square"> </td>
+<td class="square black_square"></td>
+<td class="square white_square"> </td>
+<td class="square black_square"></td>
+<td class="square white_square"> </td>
+<td class="square black_square"></td>
+<td class="square white_square"> </td>
+<td class="square black_square"></td>
+<td class="letters">7</td>
+</tr>
+<tr>
+<td class="letters">8</td>
+<td class="square black_square"></td>
+<td class="square white_square"> </td>
+<td class="square black_square"></td>
+<td class="square white_square"> </td>
+<td class="square black_square"></td>
+<td class="square white_square"> </td>
+<td class="square black_square"></td>
+<td class="square white_square"> </td>
+<td class="letters">8</td>
+</tr>
+<tr>
+<td class="letters hidden"></td>
+<td class="letters">A</td>
+<td class="letters">B</td>
+<td class="letters">C</td>
+<td class="letters">D</td>
+<td class="letters">E</td>
+<td class="letters">F</td>
+<td class="letters">G</td>
+<td class="letters">H</td>
+</tr>
+</table>
+</body>
 </html>
