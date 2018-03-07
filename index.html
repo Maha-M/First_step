@@ -13,31 +13,36 @@
     }
     table {
       text-align: center;
-        border: solid gray 1px;
+        border: solid gray 2px;
         border-collapse: collapse;
         margin: auto;
     }
     .letters {
     text-align: center;
-    border: solid gray 1px;
+    border: solid gray 2px;
     }
     .hidden {
      visibility: hidden;
     }
       .square {
-      width: 50px;
-      height: 50px;
-      border: solid gray 1px;
+      width: 60px;
+      height: 60px;
       }
       .white_square {
         background-color: white;
       }
       img {
-        text-align: center;
+      text-align: center;
       }
-      td.img:hover {
-        border: solid green 1px;
-      }
+      div {
+        border: solid rgba(255, 0, 0, 0) 2px;
+        width: 56px;
+        height: 56px;
+        }
+        div:hover {
+        border: solid red 2px;
+        cursor: pointer;
+        }
     </style>
 </head>
 <body>
@@ -83,7 +88,8 @@
 <td class="square white_square"> </td>
 <td class="square black_square"></td>
 <td class="square white_square img">
-<img src="/home/serg/Документы/html/chess_board/horse.jpg"></td>
+  <div>
+<img src="/home/serg/Документы/html/chess_board/horse.jpg"></div></td>
 <td class="square black_square"></td>
 <td class="square white_square"> </td>
 <td class="square black_square"></td>
